@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPSchoolData", "OOPSchoolData\OOPSchoolData.csproj", "{A0BECFB8-FFF0-4518-891F-BC2B1DEC081C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPSchoolData.Tests", "OOPSchoolData.Tests\OOPSchoolData.Tests.csproj", "{D0C6BB30-0C63-4E82-A45E-2AFEC309D8D5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A0BECFB8-FFF0-4518-891F-BC2B1DEC081C} = {A0BECFB8-FFF0-4518-891F-BC2B1DEC081C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0BECFB8-FFF0-4518-891F-BC2B1DEC081C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BECFB8-FFF0-4518-891F-BC2B1DEC081C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BECFB8-FFF0-4518-891F-BC2B1DEC081C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BECFB8-FFF0-4518-891F-BC2B1DEC081C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C6BB30-0C63-4E82-A45E-2AFEC309D8D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C6BB30-0C63-4E82-A45E-2AFEC309D8D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C6BB30-0C63-4E82-A45E-2AFEC309D8D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C6BB30-0C63-4E82-A45E-2AFEC309D8D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D563DFD0-79E5-4465-9EEF-7685AF40451C}
+	EndGlobalSection
+EndGlobal
