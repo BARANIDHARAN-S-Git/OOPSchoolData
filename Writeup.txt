@@ -1,0 +1,11 @@
+GithubLink:https://github.com/BARANIDHARAN-S-Git/OOPSchoolData
+---------------------------------------------------------------------------------------------
+1)Cretaed two Class Libraries OOPSchoolData and OOPSchoolData.Tests.
+
+2)Build the Libraries and add dependency and reference in the OOPSchooldata.Test Library.
+
+3)In OOPSchoolData It has three classes Student,Subjects and Teachers with the necessary properties.
+
+4)In schoolDataTest It has TestCases which verify with the conditions.
+
+5)Open The Test Explorer and run it to verify the condition is passed.
