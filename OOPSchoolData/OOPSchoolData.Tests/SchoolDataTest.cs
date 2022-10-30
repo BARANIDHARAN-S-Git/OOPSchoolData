@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OOPSchoolData;
 
 namespace OOPSchoolData.Tests
 {
@@ -12,6 +13,8 @@ namespace OOPSchoolData.Tests
     {
         [TestCase(17,ExpectedResult =true)]
         [TestCase(10,ExpectedResult =false)]
+        [TestCase(19, ExpectedResult = true)]
+        [TestCase(8, ExpectedResult = false)]
         public  bool GetStudentAge(int age)
         {
             Students s=new Students();
@@ -27,6 +30,8 @@ namespace OOPSchoolData.Tests
 
         [TestCase(101, ExpectedResult = true)]
         [TestCase(201, ExpectedResult = false)]
+        [TestCase(301, ExpectedResult = false)]
+        [TestCase(401, ExpectedResult = false)]
         public bool GetSubjectId(int SubjectId)
         {
             Subjects sub=new Subjects();
@@ -38,6 +43,8 @@ namespace OOPSchoolData.Tests
 
         [TestCase(1, ExpectedResult = true)]
         [TestCase(2, ExpectedResult = false)]
+        [TestCase(3, ExpectedResult = false)]
+        [TestCase(4, ExpectedResult = false)]
         public bool GetTeacherId(int TeacherId)
         {
             Teachers t=new Teachers();
